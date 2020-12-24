@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    
+	<form id = 'f1'>
+	    <div class="obj">
+	    	<p>tent <br /> cost:25000</p>
+			<img src="http://p.globalsources.com/IMAGES/PDT/B0841415009/Easy-Building-Tent-Automatic-Double-Layer.jpg" height="200" width="200"> <br />
+				<input type="number" class="qty" placeholder="enter the quantity" id="c1">
+			</div>
+		<div class="obj">
+			<p>sleeping bag <br /> cost:20000</p>
+			<img src="https://www.decathlon.co.uk/media/839/8392336/big_d8175605-57ed-4b4a-9112-93a21f8ed6ef.jpg" height="200" width="200"> <br />
+				<input type="number" class="qty" placeholder="enter the quantity" id="c2">
+		</div>
+		<div class="obj">
+			<p> backpack <br /> cost:3000</p>
+			<img src="https://i5.walmartimages.com/asr/1b24746c-71ee-4b96-82f7-6943329a4bac_1.ed0a938ff54fb366e3f2cc08c9cf981e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF" height="200" width="200"> <br />
+				<input type="number" class="qty" placeholder="enter the quantity" id="c3">
+		</div>
+		<div class="obj">
+			<p>lantern <br /> cost:1500</p>
+			<img src="https://www.lightingever.com/media/catalog/product/6/0/600lm-rechargeable-camp-lantern-3300012-dw-1_1_1.jpg" height="200" width="200"> <br />
+				<input type="number" class="qty" placeholder="enter the quantity" id="c4">
+		</div>
+		<br />
+		<div class="obj">
+			<p>Cooking gear <br /> cost:1500</p>
+			<img src="https://images-na.ssl-images-amazon.com/images/I/61A%2BdjOzizL._SY355_.jpg" height="200" width="200"> <br />
+				<input type="number" class="qty" placeholder="enter the quantity" id="c4">
+		</div>
+		<br />
+	  <div style="position: fixed;bottom: 10in;">
+	   <button type="submit" form="f1" value="Submit">Submit</button>
+	  </div>
+	</form>
+
+{% endblock content %}
